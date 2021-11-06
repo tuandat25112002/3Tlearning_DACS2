@@ -1,0 +1,126 @@
+  .row-step li {
+        align-items: center;
+
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        background-color: #e4e7eb;
+        width: 33.33%;
+        text-align: center;
+
+        font-size: 13.6px;
+        position: relative;
+
+    }
+
+    .row-step li.active {
+        background-color: #0a0979;
+        color: white;
+    }
+
+    .active .checkout-triangle-right {
+        border-bottom: 25px solid transparent;
+        border-left: 19px solid white;
+        border-top: 25px solid transparent;
+        position: absolute;
+        right: -18px;
+        top: 0px;
+        height: 100%;
+        z-index: 10;
+        border-left-color: #0a0979;
+    }
+
+    .checkout-triangle-right {
+        border-bottom: 25px solid transparent;
+        border-left: 19px solid #e4e7eb;
+        border-top: 25px solid transparent;
+        position: absolute;
+        right: -18px;
+        top: 0;
+        height: 100%;
+        z-index: 10;
+        border-left-color: #e4e7eb;
+    }
+
+    .checkout-triangle-left {
+        border-bottom: 34px solid transparent;
+        border-left: 27px solid #f8fafc;
+
+        border-top: 34px solid transparent;
+        left: 0;
+        position: absolute;
+        top: -9px;
+
+        height: 100%;
+    }
+
+    div.header-cart {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-left: 15px;
+        letter-spacing: 2px;
+        /* background-color: red;*/
+    }
+    .checkbox-td{
+        width: 5%;
+        text-align: center;
+        position: relative;
+    }
+    .checkbox-td input{
+         position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    }
+
+
+     td.image{
+        width: 180px;
+    }
+    td.infor-details{
+        white-space: nowrap;
+    }
+    th.infor-details{
+        white-space: nowrap;
+    }
+    td.image img{
+        width: 180px;
+        border-radius: 10px;
+    }
+    tr.tr-head{
+        border: none;
+    }
+    button.collap {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+button.collap:hover {
+  background-color: #555;
+}
+
+button.collap:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 15px;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+
+}

@@ -1,0 +1,19 @@
+.danhmuc_monhoc{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+}
+.danhmuc_monhoc .row .col-lg-3{
+    padding: 20px;
+    transition: 0.5s ;
+    border-radius: 30px;
+
+}
+.danhmuc_monhoc .row .col-lg-3:hover{
+    background-color: #f1f1f1;
+}
+.danhmuc_monhoc .row .col-lg-3 a{
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.scrollUpButton {
+ display: none;
+ opacity: 0.6;
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+z-index: 10000;
+ display: none;
+ background: #000;
+ color: #fff;
+ font-size: 1.5em;
+ text-decoration: none;
+ height: 50px;
+ width: 50px;
+ text-align: center;
+ padding: 10px;
+ border-radius: 50%;
+ transition: 0.5s;
+}
+.scrollUpButton:hover {
+  bottom: 30px;
+    }
+.scrollUpButton:hover, .scrollUpButton:focus {
+ outline: none;
+ text-decoration: none;
+ color: #fff;
+ opacity: 1;
+}

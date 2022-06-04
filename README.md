@@ -6,9 +6,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-## Import Database
+## Import Database <br>
 You must import database file: demo.sql with mySQL of Xampp
-## Download Vendor
+<br>
+## Download Vendor <br>
 link download: https://drive.google.com/drive/u/0/folders/1HNK9DrMIwIuNT3q-tt_Gd7EZ5sU3s7qr
 ## About Laravel
 

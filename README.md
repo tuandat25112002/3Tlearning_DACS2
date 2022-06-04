@@ -6,11 +6,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-## Import Database <br>
+<h2>Import Database</h2> <br>
 You must import database file: demo.sql with mySQL of Xampp
-<br>
-## Download Vendor <br>
+<br><h2>Download Vendor</h2> <br>
 link download: https://drive.google.com/drive/u/0/folders/1HNK9DrMIwIuNT3q-tt_Gd7EZ5sU3s7qr
+<br>
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
